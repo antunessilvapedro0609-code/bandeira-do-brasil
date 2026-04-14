@@ -1,0 +1,16 @@
+function setup() {
+  
+  createCanvas(600, 400);
+  noLoop();
+}
+
+function draw() {
+  background(255); 
+  noStroke();
+
+  
+  fill(188, 0, 45); 
+  
+  let diametro = height * 0.6;
+  circle(width / 2, height / 2, diametro);
+}
