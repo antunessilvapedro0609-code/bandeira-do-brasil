@@ -1,0 +1,18 @@
+function setup() {
+  createCanvas(600, 400); 
+  noStroke();
+}
+
+function draw() {
+  // Azul
+  fill('blue');
+  rect(0, 0, 200, 400);
+  
+  // Branco
+  fill('white');
+  rect(200, 0, 200, 400);
+  
+  // Vermelho
+  fill('red');
+  rect(400, 0, 200, 400);
+}
